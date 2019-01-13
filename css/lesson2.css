@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+:root {
+    font-family: 'Sarabun', sans-serif;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+header nav {
+    display: flex;
+    margin: 0px 10px 0px 10px;
+}
+header nav p {
+    margin-right: 10px;
+}
+header nav ul {
+    display: flex;
+    flex: 1;
+}
+header nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 2%;
+}
+header nav ul li:last-child {
+    margin-left: auto;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+div.banner {
+    background-image: url(../img/dr_norman_borlaug.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.banner h1 {
+    color: white;
+    font-size: 5rem;
+    }
+div.banner div button {
+    margin: auto;
+    display: flex;
+}
+.product-list {
+    max-width: 220px;
+    margin: auto;
+}
+.product-card img {
+    width: 100%;
+}
+section {
+    max-width: 220px;
+    margin-right: 3%;
+    margin-top: 25px;
+}
+main {
+    display: flex;
+}
